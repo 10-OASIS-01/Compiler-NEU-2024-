@@ -1,7 +1,0 @@
-program example
-var a,b,c,x:integer;
-begin
-a:=2;
-b:=2*5+a;
-if a>=b then x:=(a+b)*4 else x:=(a+2)*4
-end.
