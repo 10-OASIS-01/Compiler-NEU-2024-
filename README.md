@@ -80,8 +80,6 @@ LOP   < |　> | <= | >= | ==
 
 我们的实现以 [NEUEasyCompiler](https://github.com/Sswjm/NEUEasyCompiler) 作为起点。我们感谢其作者的贡献。
 
-## 改进
-
 
 ## 贡献
 
