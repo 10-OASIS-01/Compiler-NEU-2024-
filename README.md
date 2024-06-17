@@ -82,7 +82,7 @@ LOP   < |　> | <= | >= | ==
 
 创建者：lau
 
-参与开发者： lau，[name]，[name]，[name]，[name]
+参与开发者： lau，lyh，[name]，[name]，[name]
 
 
 ## 贡献
