@@ -15,58 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="keshe_final.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="datastructure.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="lexanalyse.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="objectivecode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="parser.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="SYNBL.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="lexanalyse.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="objectivecode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="parser.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="synbl.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="VirtualMachine.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="pretreat.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="keshe_final.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
@@ -83,5 +31,57 @@
     <Text Include="test1.txt">
       <Filter>资源文件</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\HeaderFiles\SYNBL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFiles\datastructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFiles\keshe_final.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFiles\lexanalyse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFiles\objectivecode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFiles\parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SourceFiles\lexanalyse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceFiles\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceFiles\objectivecode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceFiles\parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceFiles\pretreat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceFiles\synbl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceFiles\VirtualMachine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

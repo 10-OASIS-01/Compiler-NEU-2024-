@@ -1,6 +1,6 @@
 ﻿
-#include"parser.h"
-#include"objectivecode.h"
+#include"../HeaderFiles/parser.h"
+#include"../HeaderFiles/objectivecode.h"
 #include <windows.h>
 #include <string>
 #include <fstream>

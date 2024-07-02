@@ -1,5 +1,5 @@
 /*利用递归下降子程序实现语法分析*/
-#include"parser.h"
+#include"../HeaderFiles/parser.h"
 #include <windows.h>  // Include this for the MessageBox function
 
 Parser::Parser(string file_string)

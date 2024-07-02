@@ -128,26 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="datastructure.h" />
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="keshe_final.h" />
-    <ClInclude Include="lexanalyse.h" />
-    <ClInclude Include="objectivecode.h" />
-    <ClInclude Include="parser.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="SYNBL.h" />
-    <ClInclude Include="targetver.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="lexanalyse.cpp" />
-    <ClCompile Include="objectivecode.cpp" />
-    <ClCompile Include="parser.cpp" />
-    <ClCompile Include="pretreat.cpp" />
-    <ClCompile Include="synbl.cpp" />
-    <ClCompile Include="VirtualMachine.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="keshe_final.rc" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +136,26 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\HeaderFiles\datastructure.h" />
+    <ClInclude Include="..\HeaderFiles\keshe_final.h" />
+    <ClInclude Include="..\HeaderFiles\lexanalyse.h" />
+    <ClInclude Include="..\HeaderFiles\objectivecode.h" />
+    <ClInclude Include="..\HeaderFiles\parser.h" />
+    <ClInclude Include="..\HeaderFiles\SYNBL.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SourceFiles\lexanalyse.cpp" />
+    <ClCompile Include="..\SourceFiles\main.cpp" />
+    <ClCompile Include="..\SourceFiles\objectivecode.cpp" />
+    <ClCompile Include="..\SourceFiles\parser.cpp" />
+    <ClCompile Include="..\SourceFiles\pretreat.cpp" />
+    <ClCompile Include="..\SourceFiles\synbl.cpp" />
+    <ClCompile Include="..\SourceFiles\VirtualMachine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

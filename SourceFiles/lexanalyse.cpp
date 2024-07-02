@@ -1,4 +1,4 @@
-#include"lexanalyse.h"
+#include"../HeaderFiles/lexanalyse.h"
 
 
 int LexAnalyser::IfLetter(char ch)                       //ÅÐ¶Ï×ÖÄ¸

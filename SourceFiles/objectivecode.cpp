@@ -1,4 +1,4 @@
-﻿#include "objectivecode.h"
+﻿#include "../HeaderFiles/objectivecode.h"
 
 struct Node {                //DAG节点
 	int left;

@@ -1,4 +1,4 @@
-#include"SYNBL.h"
+#include"../HeaderFiles/SYNBL.h"
 using namespace std;
 
 int synbl::sym_search(string str)//≤È’“±‰¡ø
