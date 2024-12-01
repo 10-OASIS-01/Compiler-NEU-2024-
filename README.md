@@ -1,4 +1,4 @@
-# 东北大学编译原理课程设计
+# 东北大学编译原理课程设计 [English Version README](https://github.com/10-OASIS-01/Compiler-NEU-2024-/blob/main/README_EN.md)
 
 ## 运行环境
 
