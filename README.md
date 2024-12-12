@@ -106,16 +106,20 @@ LOP   < |　> | <= | >= | ==
 
 我们的实现以 [NEUEasyCompiler](https://github.com/Sswjm/NEUEasyCompiler) 作为起点。我们感谢其作者的贡献。
 
-创建者：lau
+创建者：Léon
 
-参与开发者： lau，lyh，mzh，hxr，szy
+参与开发者： Léon，lyh，mzh，hxr，szy
 
 
 ## 贡献
 
 欢迎对本项目进行贡献！😊😊😊
 
-该课设仍然存在一定改进之处，如不支持字符串、数组、结构体、函数。若您希望在此课设代码上进一步开发，欢迎提交 issue 或 pull request。贡献方式：
+该课设仍然存在一定改进之处，如：
+
+- 不支持字符串、数组、结构体、函数。若您希望在此课设代码上进一步开发，欢迎提交 issue 或 pull request。贡献方式：
+- 未来建议使用 CMake 来管理项目，CMake 可以有效简化构建过程，尤其是在文件较多的情况下，可以减少每次修改后的编译时间。
+
 
 1. Fork 本仓库
 2. 创建一个新的分支 (`git checkout -b feature-branch`)
