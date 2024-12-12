@@ -45,7 +45,26 @@ LOP   < |　> | <= | >= | ==
 
 ## 文件说明
 
-### ProjectFiles
+
+
+### include
+- datastructure.h: 定义数据结构。
+- lexanalyse.h: 定义词法分析类。
+- objectivecode.h: 定义目标代码生成类。
+- parser.h: 定义语法分析类。
+- SYNBL.h: 定义符号表类。
+- keshe_final.h: 项目头文件。
+
+### src
+- main.cpp: 主程序。
+- lexanalyse.cpp: 词法分析器实现。
+- objectivecode.cpp: 目标代码生成实现。
+- parser.cpp: 语法分析实现。
+- synbl.cpp: 符号表实现。
+- pretreat.cpp: 预处理实现。
+- VirtualMachine.cpp: 虚拟机实现。
+
+### res
 - keshe_final.sln: 解决方案文件。
 - keshe_final.vcxproj: 项目文件。
 - keshe_final.vcxproj.filters: 项目过滤器文件。
@@ -59,22 +78,6 @@ LOP   < |　> | <= | >= | ==
 - framework.h: 框架头文件。
 
 
-### SourceFiles
-- main.cpp: 主程序。
-- lexanalyse.cpp: 词法分析器实现。
-- objectivecode.cpp: 目标代码生成实现。
-- parser.cpp: 语法分析实现。
-- synbl.cpp: 符号表实现。
-- pretreat.cpp: 预处理实现。
-- VirtualMachine.cpp: 虚拟机实现。
-
-### HeaderFiles
-- datastructure.h: 定义数据结构。
-- lexanalyse.h: 定义词法分析类。
-- objectivecode.h: 定义目标代码生成类。
-- parser.h: 定义语法分析类。
-- SYNBL.h: 定义符号表类。
-- keshe_final.h: 项目头文件。
 
 ## 运行指南
 1. 打开 Visual Studio 2022。
