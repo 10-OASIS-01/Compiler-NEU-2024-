@@ -45,7 +45,24 @@ LOP   < |　> | <= | >= | ==
 
 ## File Description
 
-### ProjectFiles
+### include
+- datastructure.h: Defines data structures.
+- lexanalyse.h: Defines lexical analysis class.
+- objectivecode.h: Defines target code generation class.
+- parser.h: Defines syntax analysis class.
+- SYNBL.h: Defines symbol table class.
+- keshe_final.h: Project header file.
+
+### src
+- main.cpp: Main program.
+- lexanalyse.cpp: Lexical analyzer implementation.
+- objectivecode.cpp: Target code generation implementation.
+- parser.cpp: Syntax analysis implementation.
+- synbl.cpp: Symbol table implementation.
+- pretreat.cpp: Preprocessing implementation.
+- VirtualMachine.cpp: Virtual machine implementation.
+
+### res
 - keshe_final.sln: Solution file.
 - keshe_final.vcxproj: Project file.
 - keshe_final.vcxproj.filters: Project filter file.
@@ -57,23 +74,6 @@ LOP   < |　> | <= | >= | ==
 - targetver.h: Target version header file.
 - Resource.h: Resource header file.
 - framework.h: Framework header file.
-
-### SourceFiles
-- main.cpp: Main program.
-- lexanalyse.cpp: Lexical analyzer implementation.
-- objectivecode.cpp: Target code generation implementation.
-- parser.cpp: Syntax analysis implementation.
-- synbl.cpp: Symbol table implementation.
-- pretreat.cpp: Preprocessing implementation.
-- VirtualMachine.cpp: Virtual machine implementation.
-
-### HeaderFiles
-- datastructure.h: Defines data structures.
-- lexanalyse.h: Defines lexical analysis class.
-- objectivecode.h: Defines target code generation class.
-- parser.h: Defines syntax analysis class.
-- SYNBL.h: Defines symbol table class.
-- keshe_final.h: Project header file.
 
 ## Running Guide
 1. Open Visual Studio 2022.
